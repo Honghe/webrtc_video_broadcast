@@ -6,14 +6,13 @@
  *  that can be found in the LICENSE file in the root of the source
  *  tree.
 -->
-<html>
+<html lang="en">
 <head>
 
     <meta charset="utf-8">
     <meta name="description" content="WebRTC code samples">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
     <meta itemprop="description" content="Client-side WebRTC code samples">
-    <meta itemprop="image" content="../../../images/webrtc-icon-192x192.png">
     <meta itemprop="name" content="WebRTC code samples">
     <meta name="mobile-web-app-capable" content="yes">
     <meta id="theme-color" name="theme-color" content="#ffffff">
@@ -28,10 +27,6 @@
             margin: 0 0 1em 0;
         }
 
-        p.small {
-            font-size: 0.7em;
-        }
-
         label {
             width: 12em;
             display: inline-block;
@@ -42,9 +37,6 @@
 
 <body>
 <div id="container">
-
-    <p>Get available audio, video sources and audio output devices from <code>mediaDevices.enumerateDevices()</code>
-        then set the source for <code>getUserMedia()</code> using a <code>deviceId</code> constraint.</p>
 
     <div class="select">
         <label for="audioSource">Audio input source: </label><select id="audioSource"></select>
